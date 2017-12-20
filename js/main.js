@@ -30,7 +30,7 @@ jQuery(document).ready(function($){
 	function checkScroll() {
 		if( !scrolling ) {
 			scrolling = true;
-			(!window.requestAnimationFrame) ? setTimeout(updateSections, 300) : window.requestAnimationFrame(updateSections);
+			(!window.requestAnimationFrame) ? setTimeout(updateSections, 1000) : window.requestAnimationFrame(updateSections);
 		}
 	}
 
