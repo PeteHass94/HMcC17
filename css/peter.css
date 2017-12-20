@@ -1,0 +1,40 @@
+/*
+ * -- SPLASH STYLES --
+ * This is the blue top section that appears on the page.
+ */
+
+.splash-container {
+    /*background: #1f8dd6; */
+    z-index: - 1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0;
+    position: fixed !important;
+}
+
+.splash {
+    /* absolute center .splash within .splash-container */
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#section2 {
+  position: absolute;
+  top: 100vh;
+}
+#section3 {
+  position: absolute;
+  top: 200vh;
+}
+#section4 {
+  position: absolute;
+  top: 300vh;
+}
